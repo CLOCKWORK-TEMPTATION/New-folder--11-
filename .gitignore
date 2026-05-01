@@ -1,0 +1,149 @@
+# ==========================================
+# Universal Prompt Optimizer - .gitignore
+# ==========================================
+
+# ------------------------------------------
+# 1. OS & Editor generated files
+# ------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ------------------------------------------
+# 2. Turborepo & Monorepo Cache
+# ------------------------------------------
+.turbo
+.cache
+
+# ------------------------------------------
+# 3. Node.js & Web Ecosystem (React/Next.js)
+# ------------------------------------------
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# ------------------------------------------
+# 4. Python & FastAPI Ecosystem
+# ------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env_python/
+ENV/
+
+# Testing/QA
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ------------------------------------------
+# 5. Environment Variables & Secrets
+# ------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+credentials.json
+client_secret.json
+
+# ------------------------------------------
+# 6. Database & Cache
+# ------------------------------------------
+*.sqlite3
+*.db
+redis-data/
+pgdata/
+
+# ------------------------------------------
+# 7. IDE Extension Builds
+# ------------------------------------------
+*.vsix
+apps/ide-extension/out/
+apps/ide-extension/dist/
+
+# ------------------------------------------
+# 8. Temporary & Backup Files
+# ------------------------------------------
+*~
+*.bak
+*.tmp
+*.temp
