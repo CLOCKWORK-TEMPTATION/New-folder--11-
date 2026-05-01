@@ -1,0 +1,8 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "uvicorn app.main:app --reload --port 8000",
+    "build": "echo 'No build step for Python API'"
+  }
+}
