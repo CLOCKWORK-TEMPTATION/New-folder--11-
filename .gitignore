@@ -141,16 +141,10 @@ apps/ide-extension/out/
 apps/ide-extension/dist/
 
 # ------------------------------------------
-# 8. Temporary & Backup Files
+# 9. Temporary & Backup Files
 # ------------------------------------------
 *~
 *.bak
 *.tmp
 *.temp
-
-# ------------------------------------------
-# 9. Obsolete Legacy Folders
-# ------------------------------------------
-frontend/
-backend/
 
