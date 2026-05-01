@@ -147,3 +147,10 @@ apps/ide-extension/dist/
 *.bak
 *.tmp
 *.temp
+
+# ------------------------------------------
+# 9. Obsolete Legacy Folders
+# ------------------------------------------
+frontend/
+backend/
+
